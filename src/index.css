@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@tailwind utilities;
+
+/* @layer utilities {
+  .typed-cursor {
+    @apply hidden;
+  }
+} */
+
+@theme {
+  --animate-superman: superman 3s  infinite;
+  @keyframes superman {
+    0%{
+      border-color:blue;
+      border: radius 3px;
+      transform: translate(0, 0px);
+      box-shadow: 10px 10px 100px 50px blue;
+    }
+
+    25%{
+      border-color: rgb(239, 244, 11);
+      border: radius 3px;
+      box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+    }
+    50% {
+      border-color: rgb(12, 12, 199);
+      border: radius 3px;
+      transform: translate(0, 10px);
+      box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+    }
+    75% {
+      border-color: rgb(130, 217, 160);
+      border: radius 3px;
+      box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+    }
+    100% {
+      border-color: rgb(50, 55, 205);
+      border: radius 3px;
+      transform: translate(0, -0px);
+      box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+    }
+  }
+}

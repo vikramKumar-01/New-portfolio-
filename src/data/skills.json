@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "id": 4,
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "id": 5,
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "id": 6,
+    "title":"Express.js",
+    "imageSrc":"skills/express-js-1.png"
+  },
+  {
+    "id": 7,
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/Tailwind CSS.png"
+  },
+  {
+    "id": 8,
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "id": 9,
+    "title": "Git",
+    "imageSrc": "skills/Git.png"
+  },
+  {
+    "id": 10,
+    "title": "Github",
+    "imageSrc": "skills/GitHub.png"
+  },
+  {
+    "id": 11,
+    "title": "AWS",
+    "imageSrc": "skills/AWS.png"
+  },
+  {
+    "id": 12,
+    "title": "Java",
+    "imageSrc": "skills/Java.png"
+  }
+]
