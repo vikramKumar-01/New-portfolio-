@@ -8,16 +8,18 @@ const About = () => {
   }, []);
 
   return (
-    <div className="min-h-screen text-white px-4 sm:px-6 py-16 ">
+    <div className="min-h-screen text-white px-5 sm:px-6 py-16 ">
       <div className="max-w-5xl mx-auto">
 
         {/* About Me Section */}
-        <h1
-          className="text-4xl sm:text-5xl font-bold mb-10 border-b-4 border-blue-500 inline-block pb-2"
-          data-aos="fade-right"
-        >
-          About Me
-        </h1>
+        <div className="text-center">
+          <h1
+            className="text-4xl sm:text-5xl font-bold mb-10 border-b-4 border-blue-500 inline-block pb-2"
+            data-aos="fade-right"
+          >
+            About Me
+          </h1>
+        </div>
 
         <div className="space-y-5 text-base sm:text-lg leading-relaxed">
           <p data-aos="fade-up" data-aos-delay="100">
@@ -44,13 +46,15 @@ const About = () => {
           </p>
         </div>
 
-        {/* Education Timeline */}
-        <h2
-          className="text-3xl sm:text-4xl font-bold mt-16 mb-10 border-b-4 border-green-400 inline-block pb-2"
-          data-aos="fade-right"
-        >
-          🎓 My Education
-        </h2>
+        {/* Education Timeline */} 
+        <div className="text-center">
+          <h2
+            className="text-3xl sm:text-4xl font-bold mt-16 mb-10 border-b-4 border-green-400 inline-block pb-2"
+            data-aos="fade-right"
+          >
+            🎓 My Education
+          </h2>
+        </div>
 
         <ul className="timeline timeline-vertical text-white">
           {/* 10th */}

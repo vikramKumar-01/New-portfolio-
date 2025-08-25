@@ -9,8 +9,10 @@ const Projects = () => {
     }, []);
 
     return (
-        <div className="max-w-[900px] mx-auto px-4 py-10" id="projects">
-            <h1 className="text-3xl font-bold mb-10 text-white text-center">PROJECTS</h1>
+        <div className="max-w-[900px] mx-auto px-5 py-10" id="projects">
+            <div className="text-center mt-6">
+                <h1 className="text-3xl font-bold mb-10 text-white text-center border-b-4 border-blue-500 inline-block pb-2">Projects</h1>
+            </div>
 
             <div className="flex flex-wrap gap-8 justify-center">
                 {project.map((data) => (

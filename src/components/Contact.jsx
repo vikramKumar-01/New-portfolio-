@@ -14,10 +14,10 @@ import {
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 px-4 sm:px-6 md:px-12 text-white">
+    <section id="contact" className="py-16 px-5 sm:px-6 md:px-12 text-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-10">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-2">Let's Connect</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-2 ">Let's Connect</h2>
           <div className="w-20 h-1 bg-blue-500 mx-auto rounded"></div>
           <p className="text-gray-400 mt-3 text-sm sm:text-base">
             Feel free to reach out for any collaboration or project
