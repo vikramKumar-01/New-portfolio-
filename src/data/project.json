@@ -4,7 +4,7 @@
     "title": "Currency converter",
     "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
     "description": "This is a project made with complete React js.",
-    "demo": "https://github.com/vikramKumar-01/Learn-React/tree/main/07_Currency_Convertor",
+    "demo": "https://vkccurrency.netlify.app/",
     "source": "https://github.com/vikramKumar-01/Learn-React/tree/main/07_Currency_Convertor"
   },
   {
@@ -28,7 +28,7 @@
     "title": "REST Countries API",
     "imageSrc": "https://cdn.pixabay.com/photo/2022/02/03/12/03/river-6990295_1280.jpg",
     "description": "This is a project made with HTML, CSS, Javascript and also use Rest Api.",
-    "demo": "https://github.com/vikramKumar-01/REST-Countries-API",
+    "demo": "https://vkcwhereintheworld.netlify.app/",
     "source": "https://github.com/vikramKumar-01/REST-Countries-API"
   }
 ]
