@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Hireme from './components/Hireme';
+import Experience from './components/Experience';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -23,6 +24,7 @@ function App() {
         <section id="home"><Home /></section>
         <section id="about"><About /></section>
         <section id="skills"><Skills /></section>
+        <section id='experience'><Experience/></section>
         <section id="project"><Project /></section>
         <section id="contact"><Contact /></section>
         <section id="hireme"><Hireme /></section>

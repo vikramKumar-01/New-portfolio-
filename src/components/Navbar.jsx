@@ -20,12 +20,13 @@ const Navbar = () => {
 
       {/* Desktop Menu */}
       <div className="hidden md:flex gap-2">
-        <Link to="home" smooth={true} duration={500} className={linkStyle}>Home</Link>
-        <Link to="about" smooth={true} duration={500} className={linkStyle}>About</Link>
-        <Link to="skills" smooth={true} duration={500} className={linkStyle}>Skills</Link>
-        <Link to="project" smooth={true} duration={500} className={linkStyle}>Project</Link>
-        <Link to="contact" smooth={true} duration={500} className={linkStyle}>Contact</Link>
-        <Link to="hireme" smooth={true} duration={500} className={linkStyle}>Hire Me</Link>
+        <Link to="home"       smooth={true} duration={500} className={linkStyle}>Home</Link>
+        <Link to="about"      smooth={true} duration={500} className={linkStyle}>About</Link>
+        <Link to="skills"     smooth={true} duration={500} className={linkStyle}>Skills</Link>
+        <Link to="experience" smooth={true} duration={500} className={linkStyle}>Experience</Link>
+        <Link to="project"    smooth={true} duration={500} className={linkStyle}>Project</Link>
+        <Link to="contact"    smooth={true} duration={500} className={linkStyle}>Contact</Link>
+        <Link to="hireme"     smooth={true} duration={500} className={linkStyle}>Hire Me</Link>
       </div>
 
       {/* Mobile Dropdown */}
@@ -41,12 +42,13 @@ const Navbar = () => {
           tabIndex={0}
           className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-black"
         >
-          <li><Link to="home" smooth={true} duration={500} className={mobileLinkStyle}>Home</Link></li>
-          <li><Link to="about" smooth={true} duration={500} className={mobileLinkStyle}>About</Link></li>
-          <li><Link to="skills" smooth={true} duration={500} className={mobileLinkStyle}>Skills</Link></li>
-          <li><Link to="project" smooth={true} duration={500} className={mobileLinkStyle}>Project</Link></li>
-          <li><Link to="contact" smooth={true} duration={500} className={mobileLinkStyle}>Contact</Link></li>
-          <li><Link to="hireme" smooth={true} duration={500} className={mobileLinkStyle}>Hire Me</Link></li>
+          <li><Link to="home"       smooth={true} duration={500} className={mobileLinkStyle}>Home</Link></li>
+          <li><Link to="about"      smooth={true} duration={500} className={mobileLinkStyle}>About</Link></li>
+          <li><Link to="skills"     smooth={true} duration={500} className={mobileLinkStyle}>Skills</Link></li>
+          <li><Link to="experience" smooth={true} duration={500} className={mobileLinkStyle}>Experience</Link></li>
+          <li><Link to="project"    smooth={true} duration={500} className={mobileLinkStyle}>Project</Link></li>
+          <li><Link to="contact"    smooth={true} duration={500} className={mobileLinkStyle}>Contact</Link></li>
+          <li><Link to="hireme"     smooth={true} duration={500} className={mobileLinkStyle}>Hire Me</Link></li>
         </ul>
       </div>
     </div>

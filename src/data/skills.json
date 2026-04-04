@@ -58,5 +58,15 @@
     "id": 12,
     "title": "Java",
     "imageSrc": "skills/Java.png"
+  },
+  {
+    "id": 13,
+    "title": "Formik",
+    "imageSrc": "skills/formik.png"
+  },
+  {
+    "id": 14,
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgress.png"
   }
 ]
