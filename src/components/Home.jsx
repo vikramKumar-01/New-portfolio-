@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState, useTransition } from "react";
 import Typed from "typed.js";
-import pdf from "../pdf/vikramresume-1.pdf";
+import pdf from "../pdf/vikramResume.pdf";
 import hero from "../data/hero.json";
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
@@ -56,7 +56,7 @@ const Home = () => {
             setTimeout(() => {
                 const link = document.createElement("a");
                 link.href = pdf;
-                link.download = "vikramresume-1";
+                link.download = "vikramResume";
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);

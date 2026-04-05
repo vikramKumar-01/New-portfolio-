@@ -53,7 +53,7 @@ const education = [
   {
     id: "03",
     degree: "Bachelor of Computer Applications (BCA)",
-    grade: "78%",
+    grade: "77%",
     school: "L.S. College Muzaffarpur",
     board: "Babasaheb Bhimrao Ambedkar Bihar University",
     year: "2022 – 2025",
